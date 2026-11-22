@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: SWATHI S
+* **Register Number**: 212225040449
+
 
 ---
 
@@ -85,36 +85,43 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+Step-1:
+I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Step-2:
+I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an Internet Gateway and NAT Gateway to manage internet connectivity.
 
----
+Step-3:
+I added additional public and private subnets in a second Availability Zone and updated the route tables to ensure proper routing for both internet-facing and private traffic.
+
+Step-4:
+I created a Security Group named Web Security Group and configured it to allow HTTP (port 80) access from anywhere to enable web traffic.
+
+Step-5:
+I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP, attached the security group, and selected the required key pair.
+
+Step-6:
+I configured a user data script to automatically install Apache and deploy a web application, then verified the web server by accessing the instance’s public DNS in a browser.
+
 
 ## Output Screenshots (Attach 3)
 
+
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
-
----
+<img width="1267" height="576" alt="image" src="https://github.com/user-attachments/assets/8b242d8f-26bd-4267-8498-19d6233cfdca" />
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1280" height="601" alt="image" src="https://github.com/user-attachments/assets/00e3b462-ca42-41e0-8a23-b44aed724091" />
 
----
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1277" height="590" alt="image" src="https://github.com/user-attachments/assets/ca85935d-ac48-4964-ac85-932b5e9ae6b5" />
 
----
 
-## Result 
+## Result :
+This experiment successfully demonstrated the creation of a custom VPC and deployment of a public-facing web server in AWS. By configuring networking components such as subnets, route tables, and security groups, and by launching an EC2 instance with a web server, the basic architecture of a cloud-hosted application was understood.
 
 This experiment successfully demonstrated the creation of a custom VPC and deployment of a public-facing web server in AWS. By configuring networking components such as subnets, route tables, and security groups, and by launching an EC2 instance with a web server, the basic architecture of a cloud-hosted application was understood.
