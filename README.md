@@ -51,6 +51,7 @@ Verified EC2 administrative access for user-3
 <img width="1268" height="612" alt="image" src="https://github.com/user-attachments/assets/7c143a71-b2be-4208-a0f8-c977788dd291" />
 <img width="1257" height="613" alt="image" src="https://github.com/user-attachments/assets/315bc7d0-ed0c-4931-b93a-eec61167af24" />
 ## Workflow:
+
 Accessed IAM console and reviewed users and groups.
 
 Inspected policy permissions attached to groups.
